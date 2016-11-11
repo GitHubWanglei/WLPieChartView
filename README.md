@@ -1,2 +1,2 @@
 
-<h1 align = "center" color = "red">这是居中标题</h1>
+<h1 align = "center"><font color="red">这是居中标题</font></h1>

@@ -7,7 +7,11 @@
 
 #import "WLSlice.h"
 
+#if __IPHONE_OS_VERSION_MAX_ALLOWED >= __IPHONE_10_0
 @interface WLSlice ()<CAAnimationDelegate>
+#else
+@interface WLSlice ()
+#endif
 
 @property (nonatomic, assign) CGFloat holeRadius;
 @property (nonatomic, assign) CGFloat sliceSpace;

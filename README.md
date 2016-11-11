@@ -1,5 +1,5 @@
 
-<h1 align = "center">这是居中标题</h1>
+<h1 align = "center">WLPieChartView</h1>
 
 ### 基本使用
 
@@ -12,4 +12,4 @@ pieChart.titlesInSlices = [NSMutableArray arrayWithArray:@[@"23%", @"7%", @"35%"
 [self.view addSubview:pieChart];
 ```
 效果如下:
-![效果图]()
+![效果图](https://github.com/GitHubWanglei/WLPieChartView/blob/master/%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.png)

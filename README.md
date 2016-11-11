@@ -1,7 +1,7 @@
 
 <h1 align = "center">WLPieChartView</h1>
 
-### 基本使用
+### 一、基本使用
 
 代码如下:
 
@@ -17,3 +17,8 @@ pieChart.titlesInSlices = [NSMutableArray arrayWithArray:@[@"23%", @"7%", @"35%"
 
 ![效果图](https://github.com/GitHubWanglei/WLPieChartView/blob/master/%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8.png)
 
+### 二、其它设置
+
+1. 可设置中间圆孔、圆孔上的文字、区块间距、当内标题显示不下时进行自适应等, 如下图:
+
+![](https://github.com/GitHubWanglei/WLPieChartView/blob/master/%E5%86%85%E6%A0%87%E9%A2%98%E5%92%8C%E8%87%AA%E9%80%82%E5%BA%94.png)

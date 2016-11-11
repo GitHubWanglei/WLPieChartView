@@ -27,6 +27,6 @@ pieChart.titlesInSlices = [NSMutableArray arrayWithArray:@[@"23%", @"7%", @"35%"
 
 ![](https://github.com/GitHubWanglei/WLPieChartView/blob/master/%E5%A4%96%E6%A0%87%E9%A2%98%E5%92%8C%E5%88%9D%E5%A7%8B%E9%80%89%E4%B8%AD%E7%8A%B6%E6%80%81.png)
 
-3.可设置是否能点击区块, 点击区块的交互效果, 共三种交互效果, 如下图:
+3.可设置自定义区块外标题、是否能点击区块, 点击区块的交互效果, 共三种交互效果, 如下图:
 
 ![](https://github.com/GitHubWanglei/WLPieChartView/blob/master/%E4%BA%A4%E4%BA%92%E6%95%88%E6%9E%9C.gif)

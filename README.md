@@ -1,5 +1,5 @@
 
-<h1 align = "center"><font color=#0099ff size=7 face="黑体">WLPieChartView</font></h1>
+<h1 align = "center"><font color=#0099ff >WLPieChartView</font></h1>
 
 ### 一、基本使用
 

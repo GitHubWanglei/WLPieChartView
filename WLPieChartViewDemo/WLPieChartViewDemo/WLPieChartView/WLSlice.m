@@ -277,8 +277,6 @@
                     [_maskSlice removeFromSuperlayer];
                 }
             }
-        }else{
-            
         }
     }else{
         if (_selectedStyle == WLSliceSelectedStyleSpace && _sliceSpace > 0 && selected == YES) {

@@ -9,7 +9,10 @@
 #import "ViewController.h"
 #import "WLPieChartView.h"
 
-#define UIColorFromHexValue(HexValue) [UIColor colorWithRed:((float)((HexValue & 0xFF0000) >> 16))/255.0 green:((float)((HexValue & 0xFF00) >> 8))/255.0 blue:((float)(HexValue & 0xFF))/255.0 alpha:1.0]
+#define UIColorFromHexValue(HexValue)                               \
+[UIColor colorWithRed:((float)((HexValue & 0xFF0000) >> 16))/255.0  \
+green:((float)((HexValue & 0xFF00) >> 8))/255.0                     \
+blue:((float)(HexValue & 0xFF))/255.0 alpha:1.0]
 
 @interface ViewController ()
 @property (nonatomic, strong) WLPieChartView *pieChart;

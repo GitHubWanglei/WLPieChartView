@@ -7,10 +7,14 @@
 
 #import "WLPieChartView.h"
 
-#define COLOR_RANDOM [UIColor colorWithRed:(arc4random() % 255) / 255.0 green:(arc4random() % 255) / 255.0 blue:(arc4random() % 255) / 255.0 alpha:1]
+#define COLOR_RANDOM                                \
+[UIColor colorWithRed:(arc4random() % 255) / 255.0  \
+green:(arc4random() % 255) / 255.0                  \
+blue:(arc4random() % 255) / 255.0 alpha:1]
 #define SLICE_TAG 1000000
 
 @interface WLPieChartView ()
+
 @property (nonatomic, strong) NSMutableArray *startAngles;
 @property (nonatomic, strong) NSMutableArray *endAngles;
 @property (nonatomic, assign) CGFloat threshold;
@@ -20,6 +24,7 @@
 @property (nonatomic, assign) CGFloat customTitleViewsOffsetToLinePart2;
 @property (nonatomic, strong) void (^animationFinished)();
 @property (nonatomic, strong) void (^selectedHandler)(WLSlice *slice,NSInteger index);
+
 @end
 
 @implementation WLPieChartView
